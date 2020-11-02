@@ -5,12 +5,9 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
+  - enabled: 1
     path: Assets/VR.unity
     guid: 9768ed8f9edbe8340b98a73b2550793e
-  - enabled: 1
-    path: Assets/Oculus/SampleFramework/Usage/HandsInteractionTrainScene.unity
-    guid: a9c41884ef0c347628dfd8a4af4a022e
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 912c3c0a7cd7b9f4ca54a842af9abf04, type: 2}
     Unity.XR.OpenVR.Settings: {fileID: 11400000, guid: 4c6a2eb6779dc0d448111f6a7a44eff5, type: 2}

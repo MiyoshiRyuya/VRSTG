@@ -1,0 +1,18 @@
+ManifestFileVersion: 0
+CRC: 3856635850
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 890c38fa48184b19cc1d7deca3790cb7
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: a4e20c9d8e7103fcef39ad820c79bacf
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/Oculus/SampleFramework/Core/CustomHands/Materials/Hands_solid.mat
+Dependencies: []
