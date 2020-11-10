@@ -370,11 +370,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 126d619cf4daa52469682f85c1378b4a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.3
+      value: 0.496
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 126d619cf4daa52469682f85c1378b4a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 0.113
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 126d619cf4daa52469682f85c1378b4a, type: 3}
       propertyPath: m_LocalRotation.x
@@ -620,6 +620,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: -92.874, y: 0, z: 0}
+--- !u!4 &326545116 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400002, guid: 126d619cf4daa52469682f85c1378b4a, type: 3}
+  m_PrefabInstance: {fileID: 176776597}
+  m_PrefabAsset: {fileID: 0}
 --- !u!20 &326545117 stripped
 Camera:
   m_CorrespondingSourceObject: {fileID: 2037080, guid: 126d619cf4daa52469682f85c1378b4a, type: 3}
@@ -768,7 +773,7 @@ MonoBehaviour:
   m_grabVolumes: []
   m_controller: 2
   m_parentTransform: {fileID: 0}
-  m_player: {fileID: 0}
+  m_player: {fileID: 1113538928}
   m_spherecastRadius: 0
   m_noSnapThreshhold: 0.15
   m_useSpherecast: 0
@@ -904,7 +909,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!54 &517168376
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1277,10 +1282,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
-  m_Radius: 0.5
-  m_Height: 1
+  m_Radius: 0.5407392
+  m_Height: 1.0814784
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Center: {x: 0, y: 0, z: 0.040739182}
 --- !u!114 &1113538930
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1294,6 +1299,32 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   slider: {fileID: 35667233}
+--- !u!65 &1113538935
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1113538928}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.7077744, y: 0.37134182, z: 1.0754344}
+  m_Center: {x: 0.021359922, y: 0.102279834, z: -0.03771534}
+--- !u!114 &1113538936
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1113538928}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a7f090edfbed7041b8e425f3f18855c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Head: {fileID: 326545116}
 --- !u!1001 &1115881311
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2050,7 +2081,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4669234126623968, guid: 0242aa8515b4bc947a945a5c6df83ee9, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 0.01
       objectReference: {fileID: 0}
     - target: {fileID: 4669234126623968, guid: 0242aa8515b4bc947a945a5c6df83ee9, type: 3}
       propertyPath: m_LocalRotation.x
@@ -2236,7 +2267,7 @@ MonoBehaviour:
   m_grabVolumes: []
   m_controller: 1
   m_parentTransform: {fileID: 1991372602}
-  m_player: {fileID: 0}
+  m_player: {fileID: 1113538928}
   m_spherecastRadius: 0
   m_noSnapThreshhold: 0.15
   m_useSpherecast: 0
